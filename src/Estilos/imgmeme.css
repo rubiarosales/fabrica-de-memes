@@ -1,0 +1,62 @@
+figure {
+
+    position: relative;
+    width: max-content;
+    margin: auto;
+
+}
+
+.colorInput{
+    align-self: center;
+}
+
+figure p {
+    display: block;
+    position: absolute;
+
+    overflow-wrap: break-word;
+
+    right: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.mid {
+  
+    bottom: 40%;
+    top: 40%;
+    margin: auto;
+}
+
+.up {
+   
+    top: 0;
+    margin: auto;
+}
+
+.down {
+   
+    bottom: 0;
+    margin: auto;
+}
+
+figure img {
+    
+    position: relative;
+
+    width: 500px;
+    height: 500px;
+    left: 0;
+    
+    object-fit: fill;
+
+}
+
+.down-btn {
+    margin: 20px;
+}
