@@ -6,6 +6,7 @@ figure {
 
     position: relative;
     width: max-content;
+    
     margin: auto;
 
 }
@@ -63,4 +64,13 @@ figure img {
 
 .down-btn {
     margin: 20px;
+}
+
+@media only screen and (min-width:600px){
+    figure img {
+        width: 550px;
+        height: 550px;
+    }
+
+    
 }

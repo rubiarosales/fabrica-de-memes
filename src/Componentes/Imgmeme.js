@@ -89,7 +89,8 @@ const Imgmeme = () => {
             <div className="d-flex  align-items-center flex-column col-12">
                 <form className='d-flex col-md-8 m-1'>
                     <select onChange={selectImg} className="form-select m-1" aria-label="Default select example">
-                        <option selected>Selecciona una imagen para tu meme</option>
+                        <option selected >Selecciona una imagen para tu meme</option>
+                        
                         <option value={6}>Futurama</option>
                         <option value={7}>Bob Esponja</option>
                         <option value={8}>Señora</option>
