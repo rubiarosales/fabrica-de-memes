@@ -6,8 +6,8 @@ const MySwal = withReactContent(Swal);
 const  Cookies= () =>{
 
     Swal.fire(
-        'Bienvenido',
-        'Acepta las cookies!'
+        'Bienvenido a la Fábrica de memes',
+        '¡Acepta las cookies!'
         
       )
 
