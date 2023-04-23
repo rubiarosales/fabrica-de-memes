@@ -22,7 +22,7 @@ figure p {
 
     right: 0;
     left: 0;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 60px;
     color: black;
     font-weight: 700;
@@ -53,8 +53,8 @@ figure img {
 
     position: relative;
 
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     left: 0;
     
     object-fit: fill;
