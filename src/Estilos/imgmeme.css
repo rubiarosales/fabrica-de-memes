@@ -1,12 +1,15 @@
 body{
-    background-color: rgba(255, 229, 127, 0.524);
+
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(17, 120, 169, 0.794), yellow);
+  background-size: cover;
+
 }
 
 figure {
 
     position: relative;
     width: max-content;
-    
     margin: auto;
 
 }
@@ -48,7 +51,10 @@ figure p {
    
     bottom: 0;
     margin: auto;
+    
 }
+
+
 
 figure img {
 
@@ -64,6 +70,13 @@ figure img {
 
 .down-btn {
     margin: 20px;
+    color: #0a2894;
+    font-weight: 700;
+    box-shadow:3px 3px #0a289486;
+}
+
+.hidden{
+    display: none;
 }
 
 @media only screen and (min-width:600px){
@@ -72,5 +85,5 @@ figure img {
         height: 550px;
     }
 
-    
+
 }
