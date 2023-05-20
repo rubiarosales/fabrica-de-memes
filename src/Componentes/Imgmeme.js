@@ -7,12 +7,12 @@ const Imgmeme = () => {
 
     const [textomeme, setTextomeme] = useState(); //Declaracion
     const [textomeme2, setTextomeme2] = useState();
-    const [imgmeme, setImgmeme] = useState();
+    const [imgmeme, setImgmeme] = useState('5');
     const [postexto, setPostexto] = useState();
     const [postexto2, setPostexto2] = useState();
     const [colortexto, setColortexto] = useState();
     const [colortexto2, setColortexto2] = useState();
-    // const memeBox = document.querySelector(".memeBox");
+
 
 
     const textmeme = (e) => {
